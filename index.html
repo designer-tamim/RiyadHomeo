@@ -58,5 +58,11 @@
     updateCountdown(); // Initial call
     setInterval(updateCountdown, 1000); // Update every second
   </script>
+
+<script>
+  if (location.hostname === "www.riyadhomeo.com") {
+    location.href = "https://riyadhomeo.com" + location.pathname + location.search + location.hash;
+  }
+</script>  
 </body>
 </html>
